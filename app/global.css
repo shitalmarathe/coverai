@@ -1,8 +1,8 @@
 @import "tailwindcss";
- @plugin "daisyui"{
-    themes: light --default, dark --prefersdark, business;
-  }
- 
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, business;
+}
+
 @theme {
   --font-sans: "DM Sans Variable", sans-serif;
 }
