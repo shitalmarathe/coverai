@@ -1,4 +1,8 @@
 import Link from "next/link";
+
+import { register } from "@/actions/userController";
+
+
 export default function Page() {
   return (
     <div className="min-h-[85vh] container mx-auto grid grid-cols-1 md:grid-cols-2 px-3">
@@ -9,7 +13,7 @@ export default function Page() {
          </h1>
        </div>
  
-       {/* Form */}
+       {/* Register Form */}
        <div className="flex items-start md:items-center">
          <form
            action="#"
@@ -22,6 +26,7 @@ export default function Page() {
              placeholder="Username"
              className="input"
              autoComplete="off"
+             required
            />
            <br />
  
@@ -31,6 +36,7 @@ export default function Page() {
              placeholder="Password"
              className="input"
              autoComplete="off"
+             required
            />
            <br />
  
