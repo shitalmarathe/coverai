@@ -14,6 +14,7 @@ export default function RootLayout({ children }) {
     <html
     lang="en"
     data-theme="business"
+    suppressHydrationWarning 
     >
      <body>
      {/* Header */}
